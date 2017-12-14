@@ -1,5 +1,4 @@
 nama = input('Nama : ')
-pwd = input('Password : ')
 hobby = []
 other = {}
 i=0
@@ -17,10 +16,9 @@ other_Umur = input('Umur : ')
 print("=====================================Program=================================")
 def guest(nama, pwd, hobby, other):
     print ("Nama Anda    :",nama)
-    print ("Password Anda:",pwd)
     print ("Hobby Anda   :",hobby)
     print ("Lain-lain    :")
     print (other_Sex)
     print (other_TTL)
     print (other_Umur)
-guest(nama, pwd, hobby, other)
+guest(nama, hobby, other)
